@@ -3,8 +3,8 @@
   який може містити значення "male", "female". Створіть змінну myGender цього типу.
 */
 type Gender = {
-  male: 'male';
-  female: 'female';
+  male: string;
+  female: string;
 };
 
 const myGender: Gender = {
